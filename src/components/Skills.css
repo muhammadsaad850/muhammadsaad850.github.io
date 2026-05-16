@@ -1,0 +1,21 @@
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-pill {
+  padding: 6px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  font-size: 0.875rem;
+  color: var(--text);
+  font-weight: 500;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.skill-pill:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
